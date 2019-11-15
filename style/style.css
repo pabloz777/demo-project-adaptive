@@ -58,9 +58,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 185px;
   padding-top: 3.5vw;
   padding-bottom: calc(15.6vw - 4.6vw / 2);
+  width: 10vw;
 }
 
 .header-title {
@@ -87,16 +87,16 @@ body {
   display: flex;
   text-decoration: none;
   background-color: #5e42b0;
-  width: 310px;
-  height: 75px;
+  height: 4vw;
+  width: 16vw;
   border-radius: 50px;
   align-items: center;
 }
 
 .svg-color {
   fill: #ffffff;
-  width: 40px;
-  margin-left: 40px;
+  width: 2.1vw;
+  margin-left: 2.1vw;
 }
 
 a {
@@ -108,8 +108,8 @@ a {
   flex-direction: column;
   color: #ffffff;
   letter-spacing: 0.04em;
-  font-size: 1.4rem;
-  margin-left: 20px;
+  font-size: 0.72vw;
+  margin-left: 1.2vw;
 }
 
 .header-information {
@@ -118,7 +118,7 @@ a {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  width: 670px;
+  width: 35vw;
   margin-top: 8.53vw;
   padding-bottom: 5.74vw;
 }
@@ -129,30 +129,47 @@ a {
   }
 
   .header-logo {
-    width: 205px;
-    padding-top: 35px;
-    padding-bottom: 180px;
+    width: 27vw;
+    padding-bottom: 24vw;
+    padding-top: 4.5vw;
   }
 
   .header-box {
-    width: 600px;
-    margin-bottom: 300px;
+    width: 78.8vw;
+    margin-bottom: 39vw;
   }
 
   .header-title {
-    font-size: 6.4rem;
-    line-height: 64px;
+    font-size: 8.33vw;
+    line-height: 8.33vw;
   }
 
   .header-title-text {
     text-align: left;
-    margin-left: 100px;
+    margin-left: 13.19vw;
   }
 
   .header-information {
-    width: 650px;
+    width: 84.33vw;
     margin-top: 0;
-    padding-bottom: 90px;
+    padding-bottom: 11.7vw;
+  }
+
+  .header-mobile {
+    height: 10vw;
+    width: 40vw;
+    border-radius: 50px;
+    align-items: center;
+  }
+
+  .svg-color {
+    width: 5.5vw;
+    margin-left: 5.5vw;
+  }
+
+  .svg-text {
+    font-size: 1.81vw;
+    margin-left: 3.2vw;
   }
 }
 
@@ -161,53 +178,53 @@ a {
     background-image: url("../imges/football_767.jpg");
   }
   .header-logo {
-    width: 130px;
-    padding-top: 30px;
-    padding-bottom: 130px;
+    width: 40vw;
+    padding-top: 22.5vw;
+    padding-bottom: 40vw;
   }
 
   .header-box {
-    width: 280px;
+    width: 88vw;
   }
 
   .header-title {
-    font-size: 2.8rem;
-    line-height: 28px;
+    font-size: 8.75vw;
+    line-height: 8.75vw;
   }
 
   .header-title-text {
     text-align: left;
-    margin-left: 45px;
-    margin-top: 30px;
-    margin-bottom: 90px;
+    margin-left: 14vw;
+    margin-top: 22.5vw;
+    margin-bottom: 28vw;
   }
 
   .header-information {
-    width: 280px;
+    width: 88vw;
     flex-direction: column;
-    padding-bottom: 80px;
+    padding-bottom: 25vw;
     margin-top: 0;
   }
 
   .header-mobile {
-    height: 35px;
+    height: 11vw;
   }
 
   .svg-color {
-    width: 20px;
-    margin-left: 80px;
+    width: 6.25vw;
+    margin-left: 25vw;
   }
 
   .svg-text {
-    margin-left: 5px;
-    font-size: 0.8rem;
+    margin-left: 1.56vw;
+    font-size: 2.5vw;
   }
 
   .header-mobile:last-of-type {
-    margin-top: 14px;
+    margin-top: 4.4vw;
   }
 
   .header-mobile {
-    width: 280px;
+    width: 88vw;
   }
 }
