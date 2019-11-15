@@ -195,7 +195,7 @@ a {
   .header-title-text {
     text-align: left;
     margin-left: 14vw;
-    margin-top: 22.5vw;
+    margin-top: calc(10vw - 1.8vw);
     margin-bottom: 28vw;
   }
 
