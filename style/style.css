@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.ttf") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 10px;
 }
@@ -8,7 +26,7 @@ body {
 }
 
 .container {
-  background-image: url("imges/football_1920.jpg");
+  background-image: url("../imges/football_1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -27,7 +45,7 @@ body {
   background-size: cover;
   top: 0;
   right: 0;
-  left: 0; 
+  left: 0;
   bottom: 0;
 }
 
@@ -42,7 +60,7 @@ body {
   margin-right: auto;
   width: 185px;
   padding-top: 3.5vw;
-  padding-bottom: calc(15.6vw - 4.6vw/2); 
+  padding-bottom: calc(15.6vw - 4.6vw / 2);
 }
 
 .header-title {
@@ -54,10 +72,11 @@ body {
 
 .header-title-text {
   text-align: right;
+  display: block;
+  line-height: 3.33vw;
 }
 
 .header-box {
-  line-height: 5.2vw;
   letter-spacing: 0.26vw;
   width: 80vw;
   margin-left: auto;
@@ -81,7 +100,7 @@ body {
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .svg-text {
@@ -106,90 +125,89 @@ a {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .container {
-    background-image: url("imges/football_1280");
+    background-image: url("../imges/football_1280.jpg");
   }
-  
-  .header-logo {  
+
+  .header-logo {
     width: 205px;
     padding-top: 35px;
     padding-bottom: 180px;
   }
-  
+
   .header-box {
     width: 600px;
     margin-bottom: 300px;
   }
-  
+
   .header-title {
     font-size: 6.4rem;
     line-height: 64px;
   }
-  
+
   .header-title-text {
     text-align: left;
     margin-left: 100px;
   }
-  
+
   .header-information {
     width: 650px;
     margin-top: 0;
     padding-bottom: 90px;
   }
-} 
+}
 
 @media (max-width: 640px) {
-   .container {
-    background-image: url("imges/football_767");
+  .container {
+    background-image: url("../imges/football_767.jpg");
   }
-   .header-logo {  
+  .header-logo {
     width: 130px;
     padding-top: 30px;
-    padding-bottom: 130px; 
+    padding-bottom: 130px;
   }
-  
+
   .header-box {
-    width: 280px;  
+    width: 280px;
   }
-  
+
   .header-title {
     font-size: 2.8rem;
     line-height: 28px;
   }
-  
+
   .header-title-text {
     text-align: left;
     margin-left: 45px;
     margin-top: 30px;
     margin-bottom: 90px;
   }
-  
+
   .header-information {
     width: 280px;
     flex-direction: column;
     padding-bottom: 80px;
     margin-top: 0;
   }
-  
+
   .header-mobile {
     height: 35px;
   }
-  
+
   .svg-color {
     width: 20px;
     margin-left: 80px;
   }
-  
+
   .svg-text {
     margin-left: 5px;
     font-size: 0.8rem;
   }
-  
+
   .header-mobile:last-of-type {
     margin-top: 14px;
   }
-  
+
   .header-mobile {
     width: 280px;
   }
-}  
-  
+}
