@@ -45,7 +45,7 @@ body {
 }
 
 .header {
-  padding-top: 67px;
+  padding-top: 42px;
   position: relative;
   z-index: 1;
   max-width: 1920px;
@@ -67,7 +67,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: calc(299px - 88px / 2);
+  margin-bottom: 284px;
   width: 192px;
 }
 
@@ -85,10 +85,10 @@ body {
 
 .header-box {
   letter-spacing: 5px;
-  max-width: 1536px;
+  max-width: 1515px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 64px;
+  line-height: 46px;
 }
 
 .header-mobile {
@@ -96,15 +96,19 @@ body {
   text-decoration: none;
   background-color: #5e42b0;
   height: 77px;
-  width: 308px;
+  width: 305px;
   border-radius: 50px;
   align-items: center;
 }
 
 .svg-color {
   fill: #ffffff;
-  width: 40px;
-  margin-left: 40px;
+  width: 50px;
+  margin-left: 29px;
+}
+
+.svg-color-google {
+  margin-left: 48px;
 }
 
 a {
@@ -126,9 +130,9 @@ a {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  width: 673px;
-  margin-top: 164px;
-  padding-bottom: 110px;
+  width: 658px;
+  margin-top: 221px;
+  padding-bottom: 105px;
 }
 
 .sports-blog {
@@ -136,10 +140,11 @@ a {
 }
 
 p {
+  margin-top: 13px;
   font-size: 20px;
   margin-bottom: 0;
   font-weight: lighter;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.8px;
 }
 
 h2 {
@@ -153,12 +158,12 @@ h2 {
 }
 
 .athletets-text {
-  padding-left: 1000px;
+  padding-left: 997px;
 }
 
 .info-content {
-  padding-left: 1000px;
-  padding-bottom: 60px;
+  padding-left: 995px;
+  padding-bottom: 55px;
   padding-right: 190px;
   width: 700px;
   margin-left: auto;
@@ -166,7 +171,7 @@ h2 {
 }
 
 .sports-content {
-  padding-top: calc(115px - 30px);
+  padding-top: 90px;
 }
 
 h3 {
@@ -189,7 +194,7 @@ h3 {
 .procedure-block::after {
   content: "";
   display: block;
-  width: 20px;
+  width: 25px;
   height: 5px;
   border-radius: 5px;
   background: #5e42b0;
@@ -219,13 +224,15 @@ h3 {
   z-index: 1;
   top: 12px;
   padding: 0;
-  left: calc(26.91vw - 354px);
+  left: calc(26vw - 350px);
 }
 
 .sports-svg-basketball {
   position: absolute;
   z-index: 1;
   right: calc(23.74vw - 314px);
+  top: 11.5px;
+  width: 979px;
 }
 
 .sports-svg-basketball {
@@ -237,10 +244,18 @@ h3 {
 .info-content-plaers {
   padding-left: 192px;
   padding-right: 1000px;
-  padding-bottom: 50px;
-  width: 700px;
+  padding-bottom: 57px;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.info-content-plaers-second {
+  padding-bottom: 86px;
+}
+
+.info-content-plaers:nth-child(2) {
+  padding-bottom: 53px;
 }
 
 .first-header-atletes {
@@ -256,9 +271,9 @@ h3 {
 }
 
 .atletis-comany {
-  padding-left: 192px;
+  padding-left: 186px;
   padding-right: 50vw;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .block-color-plaers:nth-of-type(3) {
@@ -290,7 +305,6 @@ h3 {
 .news-content {
   display: flex;
   flex-wrap: nowrap;
-  height: 33.33%;
 }
 
 .sports-photo-mobile {
@@ -316,25 +330,35 @@ h3 {
   margin-top: 0;
   margin-top: calc(100px - 38px);
   width: 630px;
+  line-height: 29px;
+  letter-spacing: 1.5px;
 }
 
 .content-of-sport {
-  margin-left: 130px;
+  margin-left: 121px;
   margin-top: calc(250px - 20px);
+}
+
+.events-sports .news-content .text-second {
+  margin-top: 44px;
 }
 
 .board {
   width: 168px;
-  height: 155px;
+  height: 151px;
   background: #5e42b0;
   position: absolute;
-  top: 210px;
+  top: 207px;
+}
+
+.procedure-block-second {
+  font-size: 25px;
 }
 
 .events-sports .news-content .procedure-block {
   color: #f5f6f7;
   display: block;
-  margin-top: calc(50% - 12.81%);
+  margin-top: calc(50% - 17%);
   margin-left: calc(50% - 7.14%);
 }
 
@@ -390,7 +414,7 @@ h3 {
 }
 
 .footer-title {
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-size: 80px;
   color: #ffffff;
   font-weight: bold;
@@ -401,12 +425,13 @@ h3 {
   display: block;
   color: #a496ca;
   font-size: 30px;
+  letter-spacing: 0;
 }
 
 .footer-box {
   margin-left: 35px;
   line-height: 40px;
-  margin-top: 240px;
+  margin-top: 251px;
 }
 
 a {
@@ -428,9 +453,8 @@ a {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  width: 670px;
+  width: 658px;
   margin-top: 160px;
-  padding-bottom: 240px;
 }
 
 .icon {
@@ -442,10 +466,11 @@ a {
 .footer-icon {
   border-radius: 35px;
   background: #714cd2;
+  margin-left: 23px;
 }
 
 .footer-first {
-  max-width: 900px;
+  max-width: 902px;
   display: flex;
   align-items: flex-end;
   margin-left: auto;
@@ -477,7 +502,7 @@ a {
   }
 
   .header {
-    padding-top: 3.5vw;
+    padding-top: 2.2vw;
     position: relative;
     z-index: 1;
   }
@@ -496,7 +521,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: calc(15.6vw - 4.6vw / 2);
+    margin-bottom: 14.8vw;
     width: 10vw;
   }
 
@@ -514,8 +539,8 @@ a {
   }
 
   .header-box {
-    letter-spacing: 0.26vw;
-    width: 80vw;
+    letter-spacing: 0.23vw;
+    width: 78.9vw;
     margin-left: auto;
     margin-right: auto;
   }
@@ -525,15 +550,19 @@ a {
     text-decoration: none;
     background-color: #5e42b0;
     height: 4vw;
-    width: 16vw;
+    width: 15.9vw;
     border-radius: 50px;
     align-items: center;
   }
 
   .svg-color {
     fill: #ffffff;
-    width: 2.1vw;
-    margin-left: 2.1vw;
+    width: 2.6vw;
+    margin-left: 1.5vw;
+  }
+
+  .svg-color-google {
+    margin-left: 2.5vw;
   }
 
   a {
@@ -555,9 +584,9 @@ a {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 35vw;
-    margin-top: 8.53vw;
-    padding-bottom: 5.74vw;
+    width: 34.3vw;
+    margin-top: 11.53vw;
+    padding-bottom: 5.5vw;
   }
 
   .sports-blog {
@@ -568,7 +597,8 @@ a {
     font-size: 1.04vw;
     margin-bottom: 0;
     font-weight: lighter;
-    letter-spacing: 0.04vw;
+    letter-spacing: 0.045vw;
+    margin-top: 0.7vw;
   }
 
   h2 {
@@ -579,29 +609,25 @@ a {
   }
 
   .athletets-text {
-    padding-left: 52vw;
+    padding-left: 51.9vw;
     margin-top: 0;
     margin-bottom: 0;
   }
 
   .info-content {
-    padding-left: 52vw;
-    padding-bottom: 3.1vw;
+    padding-left: 51.8vw;
+    padding-bottom: 2.9vw;
     padding-right: 0;
     margin: 0;
     width: 37vw;
   }
 
   .sports-content {
-    padding-top: calc(6vw - 1.55vw);
-  }
-
-  .the-comany {
-    padding-top: calc(3.1vw - 0.75vw);
+    padding-top: 4.7vw;
   }
 
   h3 {
-    padding-left: 0.52vw;
+    padding-left: 0.4vw;
     color: #c1c1c1;
     font-size: 1.9vw;
     font-weight: bold;
@@ -621,11 +647,15 @@ a {
     margin-bottom: 0.2vw;
   }
 
+  .procedure-block-second {
+    font-size: 1.3vw;
+  }
+
   .procedure-block::after {
     content: "";
     display: block;
-    width: 1.05vw;
-    height: 0.26vw;
+    width: 1.3vw;
+    height: 0.3vw;
     border-radius: 0.22vw;
     background: #5e42b0;
   }
@@ -637,6 +667,7 @@ a {
   .the-comany {
     display: flex;
     align-items: center;
+    padding-top: 2.35vw;
   }
 
   .info-content:nth-of-type(2) {
@@ -646,38 +677,42 @@ a {
   .sports-svg-football {
     position: absolute;
     z-index: 1;
-    left: 10vw;
-    top: 0.65vw;
+    left: 10.2vw;
+    top: 0.7vw;
     padding: 0;
-    width: 30.33vw;
+    width: 29vw;
   }
 
   .first-header-atletes {
     margin: 0;
     width: 100%;
-    margin-bottom: calc(5vw - (3.1vw - 0.75vw));
+    margin-bottom: 1.2vw;
   }
 
   .sports-svg-basketball {
     position: absolute;
     z-index: 1;
-    right: 3.12vw;
-    top: 0.78vw;
-    width: 52vw;
+    right: 3.2vw;
+    top: 0.6vw;
+    width: 51vw;
   }
 
   .info-content-plaers {
     padding-left: 10vw;
-    padding-bottom: 3.1vw;
+    padding-bottom: 3vw;
     width: 40vw;
     margin: 0;
     padding-right: 0;
   }
 
+  .info-content-plaers-second {
+    padding-bottom: 4.5vw;
+  }
+
   .atletis-comany {
-    padding-left: 10vw;
+    padding-left: 9.7vw;
     padding-right: 50vw;
-    margin-bottom: 1.8vw;
+    margin-bottom: 1.3vw;
   }
 
   .the-comany {
@@ -704,8 +739,7 @@ a {
   }
 
   .sports-photo-disctop {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
   }
 
   .action-text {
@@ -722,32 +756,36 @@ a {
     margin-top: 0;
     margin-bottom: 0;
     width: 33vw;
-    margin-top: 3.5vw;
+    margin-top: 4.3vw;
+    line-height: 1.5vw;
+    letter-spacing: 0.08vw;
+  }
+
+  .events-sports .news-content .text-second {
+    margin-top: 2.3vw;
   }
 
   .content-of-sport {
     width: 33vw;
-    margin-left: 6.77vw;
+    margin-left: 6.3vw;
     margin-top: calc(13vw - 1vw);
   }
 
   .events-sports .news-content:nth-child(even) .content-of-sport {
-    margin-left: 9.9vw;
+    margin-left: 9.7vw;
   }
 
   .board {
     width: 8.66vw;
-    height: 8vw;
+    height: 7.9vw;
     background: #5e42b0;
     position: absolute;
-    top: 11vw;
+    top: 10.8vw;
   }
 
   .events-sports .news-content .procedure-block {
     color: #f5f6f7;
     display: block;
-    margin-top: calc(50% - 12.81%);
-    margin-left: calc(50% - 7.14%);
   }
 
   .events-sports .news-content .procedure-block::after {
@@ -799,7 +837,7 @@ a {
   }
 
   .footer-title {
-    letter-spacing: 0.26vw;
+    letter-spacing: 0.2vw;
     font-size: 4.1vw;
     color: #ffffff;
     font-weight: bold;
@@ -810,12 +848,13 @@ a {
     display: block;
     color: #a496ca;
     font-size: 1.56vw;
+    letter-spacing: 0vw;
   }
 
   .footer-box {
     margin-left: 1.81vw;
     line-height: 2.2vw;
-    margin-top: 12.5vw;
+    margin-top: 13.1vw;
   }
 
   a {
@@ -837,9 +876,9 @@ a {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 35vw;
-    margin-top: 8.53vw;
-    padding-bottom: 12.5vw;
+    width: 34.3vw;
+    margin-top: 7.8vw;
+    padding-bottom: 13.4vw;
   }
 
   .icon {
@@ -851,10 +890,11 @@ a {
   .footer-icon {
     border-radius: 1.77vw;
     background: #714cd2;
+    margin-left: 1.2vw;
   }
 
   .footer-first {
-    width: 46vw;
+    width: 47vw;
     display: flex;
     align-items: flex-end;
     margin-left: auto;
@@ -868,45 +908,53 @@ a {
   }
 
   .header {
-    padding-top: 3.73vw;
+    padding-top: 5.2vw;
   }
 
   .header-logo {
     width: 27vw;
-    margin-bottom: 22vw;
+    margin-bottom: 20.9vw;
   }
 
   .header-box {
-    width: 78.8vw;
-    margin-bottom: 39vw;
+    width: 82vw;
+    margin-bottom: 38vw;
+    letter-spacing: 0.3vw;
+    line-height: 5vw;
   }
 
   .header-title {
     font-size: 8.33vw;
     line-height: 8.33vw;
+    margin-left: 3vw;
   }
 
   .header-title-text {
     text-align: left;
-    margin-left: 13.19vw;
+    margin-left: 16.5vw;
+    line-height: 10vw;
   }
 
   .header-information {
-    width: 84.33vw;
+    width: 83vw;
     margin-top: 0;
     padding-bottom: 11.7vw;
   }
 
   .header-mobile {
-    height: 10vw;
-    width: 40vw;
+    height: 9.6vw;
+    width: 39.7vw;
     border-radius: 50px;
     align-items: center;
   }
 
   .svg-color {
-    width: 5.5vw;
-    margin-left: 5.5vw;
+    width: 5.7vw;
+    margin-left: 4.5vw;
+  }
+
+  .svg-color-google {
+    margin-left: 7vw;
   }
 
   .svg-text {
@@ -920,22 +968,44 @@ a {
 
   h3 {
     font-size: 4.1vw;
-    padding-left: 1.4vw;
+    padding-left: 0.7vw;
   }
 
   .sports-svg-football {
-    left: -10.54vw;
-    top: 4vw;
-    width: 62vw;
+    left: -10.2vw;
+    top: 2.2vw;
+    width: 63vw;
+  }
+
+  .the-comany {
+    padding-top: 3.3vw;
   }
 
   p {
     font-size: 2.1vw;
-    margin-top: 2.6vw;
+    margin-top: 2.2vw;
+    line-height: 3.6vw;
   }
 
-  .events-sports .news-content p {
-    margin-top: 0;
+  .block-color:nth-of-type(3) .info-content {
+    padding-bottom: 4vw;
+  }
+
+  .block-color:nth-of-type(4) .info-content {
+    padding-bottom: 4vw;
+  }
+
+  .block-color:nth-of-type(4) .the-comany {
+    padding-top: 4.4vw;
+  }
+
+  .block-color:nth-of-type(3) .the-comany {
+    padding-top: 4vw;
+  }
+
+  .atletis-comany {
+    padding-left: 3vw;
+    margin-bottom: 0.3vw;
   }
 
   .first-header-plaers,
@@ -944,44 +1014,60 @@ a {
   }
 
   .athletets-text {
-    padding-left: 38vw;
+    padding-left: 36.7vw;
     width: 57vw;
   }
 
   .info-content {
-    padding-left: 38vw;
+    padding-left: 37.2vw;
     padding-right: 4.6vw;
     padding-right: 0;
     margin: 0;
-    width: 57vw;
+    width: 58vw;
+    padding-bottom: 4.1vw;
   }
 
   .sports-svg-basketball {
     right: 0;
+    width: 55.5vw;
+    top: -1.2vw;
+  }
+
+  .events-sports .news-content .procedure-block {
+    margin-top: 4.8vw;
+    margin-left: 5.9vw;
   }
 
   .info-content-plaers {
-    padding-left: 4.7vw;
+    padding-left: 4.1vw;
     padding-right: 35vw;
-    width: 57vw;
+    padding-bottom: 4vw;
+    width: 51vw;
     margin: 0;
   }
 
-  .atletis-comany {
-    padding-left: 4.7vw;
+  .block-color-plaers:nth-of-type(3) .atletis-comany {
+    padding-left: 3.1vw;
     padding-right: 38vw;
+    margin-bottom: 0.38vw;
   }
 
-  .procedure-block {
-    font-size: 2.3vw;
-    padding-bottom: 0.4vw;
+  .block-color-plaers:nth-of-type(3) .the-comany {
+    padding-top: 4.3vw;
+  }
+
+  .block-color-plaers:nth-of-type(4) .the-comany {
+    padding-top: 4.3vw;
   }
 
   .procedure-block::after {
     content: "";
-    width: 2.5vw;
+    width: 3vw;
     height: 0.56vw;
     border-radius: 0.5vw;
+  }
+  .procedure-block {
+    font-size: 2.7vw;
   }
 
   .news-content {
@@ -998,24 +1084,42 @@ a {
   }
 
   .events-sports .news-content p {
-    font-size: 3.12vw;
-    padding-top: calc(5.3vw - 3.7vw);
-    width: 92vw;
+    font-size: 2.95vw;
+    padding-top: 1.3vw;
+    width: 84vw;
+    margin-top: 0;
+    margin-left: 0.7vw;
   }
 
   .events-sports .news-content p:nth-child(3) {
-    padding-bottom: 15vw;
+    padding-bottom: 12.2vw;
   }
 
   .content-of-sport {
-    margin-top: calc(12.5vw - 2.7vw);
+    margin-top: 7vw;
     margin-left: 0;
     margin-right: 0;
     width: 100vw;
   }
 
+  .events-sports .news-content .text-second {
+    margin-top: 0;
+  }
+
+  .events-sports .news-content:nth-child(2) .content-of-sport {
+    margin-top: 6vw;
+  }
+
+  .events-sports .news-content:nth-child(3) .content-of-sport {
+    margin-top: 6vw;
+  }
+
+  .events-sports .news-content:nth-child(2) p {
+    padding-bottom: 13.2vw;
+  }
+
   .events-sports .news-content .board:nth-child(n + 1) {
-    width: 15vw;
+    width: 14.9vw;
     height: 15vw;
     top: -12vw;
     left: 4.201vw;
@@ -1023,7 +1127,7 @@ a {
 
   .events-sports .news-content:nth-child(n + 1) .content-of-sport {
     width: 84vw;
-    padding-left: 4vw;
+    padding-left: 3.5vw;
   }
 
   .container-footer {
@@ -1037,7 +1141,6 @@ a {
 
   .footer-first {
     flex-direction: column;
-    width: 91vw;
     align-items: center;
     padding-top: 16.3vw;
   }
@@ -1045,7 +1148,9 @@ a {
   .footer-icon {
     border-radius: 4.4vw;
     background: #593ea9;
-    margin-bottom: calc(10.4vw - 3.9vw);
+    margin-bottom: 6vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .icon {
@@ -1054,30 +1159,31 @@ a {
   }
 
   .footer-box {
-    margin-bottom: 39vw;
+    margin-bottom: 37.4vw;
     margin-top: 0;
     margin-left: 0;
   }
 
   .sports-content {
-    margin-top: calc(11.11vw - 2.88vw);
+    margin-top: 7vw;
     padding-top: 0;
   }
 
   .footer-title {
-    font-size: 9vw;
+    font-size: 10.2vw;
     line-height: 16vw;
   }
 
   .footer-title-text {
     text-align: center;
     font-size: 4.6vw;
+    line-height: 2.2vw;
   }
 
   .footer-information {
-    width: 84.33vw;
+    width: 83vw;
     margin-top: 0;
-    padding-bottom: 6.5vw;
+    margin-bottom: 7vw;
   }
 
   .svg-text {
@@ -1091,16 +1197,18 @@ a {
     background-image: url("../imges/football_767.jpg");
   }
   .header-logo {
-    width: 40vw;
+    width: 41vw;
     margin-bottom: 40vw;
   }
 
   .header-box {
     width: 88vw;
+    letter-spacing: 0.4vw;
+    line-height: 0;
   }
 
   .header {
-    padding-top: 9vw;
+    padding-top: 10vw;
     margin-bottom: 2.21vw;
   }
 
@@ -1112,14 +1220,15 @@ a {
   .header-title-text {
     text-align: left;
     margin-left: 14vw;
-    margin-top: calc(10vw - 1.8vw);
-    margin-bottom: calc(28vw - 4vw);
+    margin-top: 6vw;
+    margin-bottom: 21vw;
+    line-height: 11vw;
   }
 
   .header-information {
     width: 88vw;
     flex-direction: column;
-    padding-bottom: 27vw;
+    padding-bottom: 26.2vw;
     margin-top: 0;
   }
 
@@ -1132,12 +1241,12 @@ a {
   }
 
   .svg-color {
-    width: 6.25vw;
+    width: 7.6vw;
     margin-left: 25vw;
   }
 
   .svg-text {
-    margin-left: 1.56vw;
+    margin-left: 1.8vw;
     font-size: 2.5vw;
   }
 
@@ -1154,16 +1263,18 @@ a {
     margin-bottom: 71vw;
     padding-bottom: 0;
     padding-right: 0;
+    margin-top: 1.2vw;
   }
 
   h3 {
     font-size: 7.1vw;
-    padding-left: 3vw;
-    letter-spacing: 0.51vw;
+    padding-left: 2.5vw;
   }
 
   p {
     font-size: 4.7vw;
+    margin-top: 6vw;
+    line-height: 5.8vw;
   }
 
   .info-content-plaers,
@@ -1178,6 +1289,11 @@ a {
   .atletis-comany {
     padding-left: 0;
     padding-bottom: 0;
+  }
+
+  .info-content-plaers {
+    padding-top: 24vw;
+    padding-bottom: 16.6vw;
   }
 
   .footer-text {
@@ -1195,15 +1311,15 @@ a {
     width: 5vw;
     height: 1vw;
     border-radius: 1vw;
+    margin-top: 0.22vw;
   }
 
   .the-comany {
     padding-top: 0;
   }
 
-  .info-content,
-  .info-content-plaers {
-    padding-top: 15.5vw;
+  .info-content {
+    padding-top: 24vw;
     padding-bottom: 15.5vw;
   }
 
@@ -1213,6 +1329,16 @@ a {
     padding-top: 22.5vw;
   }
 
+  .block-color:nth-child(4) .info-content {
+    padding-bottom: 16vw;
+    padding-top: 17vw;
+  }
+
+  .block-color:nth-child(3) .info-content {
+    padding-bottom: 16vw;
+    padding-top: 17vw;
+  }
+
   .block-color,
   .block-color-plaers:nth-child(2) {
     background: #fafafa;
@@ -1220,12 +1346,18 @@ a {
 
   .info-content:nth-child(2) {
     background: #fafafa;
-    padding-bottom: 15.3vw;
+    padding-bottom: 100vw;
     padding-top: 22.5vw;
   }
 
-  .info-content-plaers:nth-child(3) {
-    padding-bottom: 15.5vw;
+  .block-color-plaers:nth-of-type(3) .info-content-plaers {
+    padding-top: 16.5vw;
+    padding-bottom: 11vw;
+  }
+
+  .block-color-plaers:nth-of-type(4) .info-content-plaers {
+    padding-top: 15.4vw;
+    padding-bottom: 16.5vw;
   }
 
   .sports-content {
@@ -1234,18 +1366,18 @@ a {
 
   .sports-svg-football {
     width: 60.2vw;
-    top: 12vw;
+    top: 11.5vw;
     left: 10.9vw;
   }
 
   .sports-svg-basketball {
     width: 94vw;
-    margin-top: 12vw;
+    top: 11.8vw;
     left: 1.461vw;
   }
 
   .first-header-plaers {
-    margin-bottom: 80vw;
+    margin-bottom: 72vw;
   }
 
   .news-content {
@@ -1258,7 +1390,7 @@ a {
 
   .first-header-plaers,
   .first-header-atletes {
-    width: 88vw;
+    width: 89vw;
   }
 
   .sports-photo-mobile,
@@ -1267,18 +1399,21 @@ a {
   }
 
   .events-sports .news-content h2 {
-    font-size: 8.7vw;
-    margin-bottom: calc(10vw - 4.35vw);
+    font-size: 8.87vw;
+    margin-bottom: 4.2vw;
+    letter-spacing: 0.21vw;
   }
 
   .events-sports .news-content p {
     font-size: 5vw;
     padding-top: 0;
     width: 88vw;
+    line-height: 6vw;
+    letter-spacing: 0.24vw;
   }
 
   .events-sports .news-content p:nth-child(3) {
-    margin-bottom: 22vw;
+    margin-bottom: 24.7vw;
     margin-top: 0;
   }
 
@@ -1289,7 +1424,7 @@ a {
   .events-sports .news-content .board:nth-child(n + 1) {
     width: 22vw;
     height: 22vw;
-    top: -18.5vw;
+    top: -20vw;
     left: 6.25vw;
   }
 
@@ -1299,12 +1434,17 @@ a {
   }
 
   .first-header-atletes {
-    margin-bottom: 88vw;
+    margin-bottom: 72vw;
   }
 
   .events-sports .news-content .procedure-block {
     margin-top: calc(50% - 17.55%);
     margin-left: calc(50% - 10%);
+  }
+
+  .events-sports .news-content:nth-of-type(3) p {
+    margin-bottom: 21.4vw;
+    line-height: 6.56vw;
   }
 
   .container-footer {
@@ -1313,25 +1453,28 @@ a {
   .footer-logo {
     width: 40vw;
     padding-bottom: 0;
+    margin-bottom: 2vw;
   }
 
   .footer-box {
-    width: 87.7vw;
+    width: 90vw;
     margin-left: 0;
-    margin-bottom: 25vw;
+    margin-bottom: 20vw;
     margin-top: 0;
   }
 
   .footer-title {
-    font-size: 9vw;
+    font-size: 9.44vw;
     line-height: 8.75vw;
     line-height: 16vw;
-    letter-spacing: 0.98vw;
+    letter-spacing: 0.95vw;
   }
 
   .footer-title-text {
     font-size: 4.4vw;
     text-align: center;
+    line-height: 3.5vw;
+    letter-spacing: 0.14vw;
   }
 
   .footer-first {
@@ -1341,12 +1484,13 @@ a {
 
   .icon {
     width: 16vw;
-    margin: 2.88vw 2vw;
+    margin: 3.2vw 3vw;
   }
 
   .footer-icon {
     border-radius: 5vw;
-    margin-bottom: calc(17.2vw - 0.32vw);
+    margin-bottom: 14vw;
+    margin-left: 0;
   }
 
   .footer-information {
@@ -1354,7 +1498,7 @@ a {
     flex-direction: column;
     padding-bottom: 0;
     margin-top: 0;
-    margin-bottom: 22vw;
+    margin-bottom: 25.5vw;
   }
 
   .header-mobile {
@@ -1363,17 +1507,7 @@ a {
 
   .content-of-sport {
     margin-left: 6.3vw;
-    margin-top: 7.33vw;
-  }
-
-  .svg-color {
-    width: 6.25vw;
-    margin-left: 25vw;
-  }
-
-  .svg-text {
-    margin-left: 1.56vw;
-    font-size: 2.5vw;
+    margin-top: 6.5vw;
   }
 
   .header-mobile:last-of-type {
